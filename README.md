@@ -16,7 +16,7 @@ Here are some ideas to get you started:
 # About me
 Hello, my name is Garik Arutyunyan.  I am passionate and experienced Software Developer. Graduated with Bachelor of Science in Computer Science and Associate in Science with Applied Computing from Rochester Institute of Technology. 
 
-## Code Languages 
+## Programming Languages 
 <div>
   <img src="https://github.com/devicons/devicon/blob/master/icons/java/java-original-wordmark.svg" title="Java" alt="Java" width="40" height="40"/>&nbsp;
   <img src="https://github.com/devicons/devicon/blob/master/icons/spring/spring-original-wordmark.svg" title="Spring" alt="Spring" width="40" height="40"/>&nbsp;
@@ -33,3 +33,5 @@ Hello, my name is Garik Arutyunyan.  I am passionate and experienced Software De
 
 # How to contact me
 
+<a href="mailto:garikcareer@gmail.com">Email</a>
+<a href="inkedin.com/in/garikcareer">Linkedin</a>
