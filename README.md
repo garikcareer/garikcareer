@@ -35,4 +35,4 @@ Hello, my name is Garik Arutyunyan.  I am passionate and experienced Software De
 
 <a href="mailto:garikcareer@gmail.com">Email</a>
 <br>
-<a href="linkedin.com/in/garikcareer">Linkedin</a>
+<a href="https://www.linkedin.com/in/garikcareer/">Linkedin</a>
