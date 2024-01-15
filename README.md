@@ -13,16 +13,19 @@ Here are some ideas to get you started:
 - ⚡ Fun fact: ...
 -->
 
-# About me
-Hello, my name is Garik Arutyunyan.  I am passionate and experienced Software Developer. Graduated with Bachelor of Science in Computer Science and Associate in Science with Applied Computing from Rochester Institute of Technology. 
+<div id="about" align="center">
+  <h1 align="center">About me </h1>
+  <p>Hello, my name is Garik Arutyunyan.  I am passionate and experienced Software Developer. Graduated with Bachelor of Science in Computer Science and Associate in Science with Applied Computing from Rochester Institute of Technology. </p>
+</div>
 
-## Programming Languages 
-<div>
+<div id="programminglanguages" align="center">
+  <h2 align="center">Programming Languages </h2>
   <img src="https://github.com/devicons/devicon/blob/master/icons/java/java-original-wordmark.svg" title="Java" alt="Java" width="40" height="40"/>&nbsp;
   <img src="https://github.com/devicons/devicon/blob/master/icons/spring/spring-original-wordmark.svg" title="Spring" alt="Spring" width="40" height="40"/>&nbsp;
   <img src="https://github.com/devicons/devicon/blob/master/icons/python/python-original-wordmark.svg" title="Python" alt="Python" width="40" height="40"/>&nbsp;
   <img src="https://github.com/devicons/devicon/blob/master/icons/react/react-original-wordmark.svg" title="React" alt="React" width="40" height="40"/>&nbsp
   <img src="https://github.com/devicons/devicon/blob/master/icons/html5/html5-original.svg" title="HTML5" alt="HTML" width="40" height="40"/>&nbsp;
+  <br>
   <img src="https://github.com/devicons/devicon/blob/master/icons/css3/css3-plain-wordmark.svg"  title="CSS3" alt="CSS" width="40" height="40"/>&nbsp;
   <img src="https://github.com/devicons/devicon/blob/master/icons/javascript/javascript-original.svg" title="JavaScript" alt="JavaScript" width="40" height="40"/>&nbsp;
   <img src="https://github.com/devicons/devicon/blob/master/icons/mysql/mysql-original-wordmark.svg" title="MySQL"  alt="MySQL" width="40" height="40"/>&nbsp;
@@ -31,8 +34,13 @@ Hello, my name is Garik Arutyunyan.  I am passionate and experienced Software De
   <img src="https://github.com/devicons/devicon/blob/master/icons/git/git-original-wordmark.svg" title="Git" alt="Git" width="40" height="40"/>&nbsp;
 </div>
 
-# How to contact me
-
-<a href="mailto:garikcareer@gmail.com">Email</a>
-<br>
-<a href="https://www.linkedin.com/in/garikcareer/">Linkedin</a>
+<div id="badges" align="center">
+  <h2 align="center">How to contact me</h2>
+  <a href="https://www.linkedin.com/in/garikcareer">
+    <img alt="Static LinkedIn Badge" src="https://img.shields.io/static/v1?style=for-the-badge&logo=LinkedIn&logoColor=white&message=LinkedIn&labelColor=blue&label=%20&color=gray" alt="LinkedIn Badge"/>
+  </a>
+  &nbsp;&nbsp;&nbsp;&nbsp;
+  <a href="mailto:garikcareer@gmail.com">
+    <img src="https://img.shields.io/static/v1?style=for-the-badge&logo=GMAIL&logoColor=RED&message=GMAIL&labelColor=white&label=%20&color=gray" alt="Gmail Badge"/>
+  </a>
+</div>
