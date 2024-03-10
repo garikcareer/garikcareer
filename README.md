@@ -1,7 +1,7 @@
 <div id="about" align="center">
   <details open> 
     <summary><h2>🤵About me </h2></summary>
-    <p>My name is Garik Arutyunyan. A software developer graduated with two diplomas of Graduated with Bachelor of Science in Computer Science and Associate in Science with Applied Computing from Rochester Institute of Technology. Born deaf and use hearing aids to hear sounds, able to speak English or Russian fluently. As well I do sign language. I am passionate to work on solving problems, engineering projects and learn new topics. Currently full-time employee at Citi. My hobbies are fitness, judo and outdoor activities.</p> 
+    <p>My name is Garik. I am software engineer, graduated with two diplomas of Graduated with Bachelor of Science in Computer Science and Associate in Science with Applied Computing from Rochester Institute of Technology. I was born deaf and use hearing aids to hear sounds. Speak English, sign language or Russian fluently. I am passionate to work on solving problems, engineering projects and learn new topics. Currently full-time employee at Citi. My hobbies are fitness, judo and outdoor activities.</p> 
   <a href="#"><img src="https://media.giphy.com/media/SWoSkN6DxTszqIKEqv/giphy.gif" width="700" height="400"/></a>
   </details>
 </div>
