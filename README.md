@@ -1,6 +1,6 @@
-<div id="about" align="center">
+<div align="center" >
     <!--   <a href="#"><img src="https://media.giphy.com/media/SWoSkN6DxTszqIKEqv/giphy.gif" width="350" height="200"/></a> -->
-    <summary><h2>About me </h2></summary>
+    <h1>About me </h1>
     <p>My name is Garik. I am a software engineer and graduated with two diplomas: a Bachelor of Science in Computer
         Science and an Associate in Science with Applied Computing from Rochester Institute of Technology. I was born
         deaf and use hearing aids to hear sounds. Speak English and Russian fluently. Also, I know sign language. I am
@@ -10,8 +10,9 @@
         contacts.</p>
 
 </div>
-<div id="programminglanguages" align="center">
-    <h3>Programming Languages</h3>
+<div align="center">
+    <h1>Software Experience</h1>
+    <h4>Programming Languages</h4>
     <a href="#"><img src="https://github.com/devicons/devicon/blob/master/icons/java/java-original-wordmark.svg"
                      title="Java" alt="Java" width="70" height="70"/></a>&nbsp;
     <a href="#"><img src="https://github.com/devicons/devicon/blob/master/icons/python/python-original-wordmark.svg"
@@ -30,7 +31,7 @@
                      alt="CSS3" width="70" height="70"/></a>&nbsp;
     <a href="#"><img src="https://github.com/devicons/devicon/blob/master/icons/php/php-original.svg" title="PHP"
                      alt="PHP" width="70" height="70"/></a>&nbsp;
-    <h3>Software Frameworks</h3>
+    <h4>Software Frameworks</h4>
     <a href="#"><img src="https://github.com/devicons/devicon/blob/master/icons/spring/spring-original-wordmark.svg"
                      title="Spring" alt="Spring" width="70" height="70"/></a>&nbsp;
     <a href="#"><img src="https://github.com/devicons/devicon/blob/master/icons/junit/junit-original-wordmark.svg"
@@ -47,20 +48,20 @@
                      title="pandas" alt="pandas" width="70" height="70"/></a>&nbsp;
     <a href="#"><img src="https://github.com/devicons/devicon/blob/master/icons/numpy/numpy-original-wordmark.svg"
                      title="NumPy" alt="NumPy" width="70" height="70"/></a>&nbsp;
-    <h3>Cloud</h3>
+    <h4>Cloud</h4>
     <a href="#"><img src="https://github.com/devicons/devicon/blob/master/icons/redhat/redhat-original-wordmark.svg"
                      title="Red Hat" alt="Red Hat" width="70" height="70"/></a>&nbsp;
     <a href="#"><img
             src="https://github.com/devicons/devicon/blob/master/icons/amazonwebservices/amazonwebservices-original-wordmark.svg"
             title="AWS" alt="AWS" width="70" height="70"/></a>&nbsp;
-    <h3>Databases</h3>
+    <h4>Databases</h4>
     <a href="#"><img src="https://github.com/devicons/devicon/blob/master/icons/oracle/oracle-original.svg"
                      title="Oracle" alt="Oracle" width="70" height="70"/></a>&nbsp;
     <a href="#"><img src="https://github.com/devicons/devicon/blob/master/icons/mongodb/mongodb-original-wordmark.svg"
                      title="MongoDB" alt="MongoDB" width="70" height="70"/></a>&nbsp;
     <a href="#"><img src="https://github.com/devicons/devicon/blob/master/icons/mysql/mysql-original-wordmark.svg"
                      title="MySQL" alt="MySQL" width="70" height="70"/></a>&nbsp;
-    <h3>Dev Ops</h3>
+    <h4>Dev Ops</h4>
     <a href="#"><img src="https://github.com/devicons/devicon/blob/master/icons/jira/jira-original-wordmark.svg"
                      title="Jira" alt="Jira" width="70" height="70"/></a>&nbsp;
     <a href="#"><img
@@ -77,7 +78,7 @@
                      title="Jenkins" alt="Jenkins" width="70" height="70"/></a>&nbsp;
     <a href="#"><img src="https://github.com/devicons/devicon/blob/master/icons/slack/slack-original-wordmark.svg"
                      title="Slack" alt="Slack" width="70" height="70"/></a>&nbsp;
-    <h3>IDEs</h3>
+    <h4>IDEs</h4>
     <a href="#"><img src="https://github.com/devicons/devicon/blob/master/icons/intellij/intellij-original.svg"
                      title="IntelliJ" alt="IntelliJ" width="70" height="70"/></a>&nbsp;
     <a href="#"><img
@@ -85,13 +86,12 @@
             title="Visual Studio" alt="Visual Studio" width="70" height="70"/></a>&nbsp;
     <a href="#"><img src="https://github.com/devicons/devicon/blob/master/icons/eclipse/eclipse-original-wordmark.svg"
                      title="Eclipse" alt="Visual Studio" width="70" height="70"/></a>&nbsp;
-    <h3>Tools</h3>
+    <h4>Tools</h4>
     <a href="#"><img src="https://github.com/devicons/devicon/blob/master/icons/postman/postman-original-wordmark.svg"
                      title="Postman" alt="Postman" width="70" height="70"/></a>&nbsp;
 </div>
-<div id="footer" align="center">
-    <summary><h2>📱How to contact me</h2></summary>
-    <h2 align="center">
+<div align="center">
+    <h1>📱How to contact me</h1>
         <a href="https://www.linkedin.com/in/garikcareer">
             <img alt="Static LinkedIn Badge"
                  src="https://img.shields.io/static/v1?style=for-the-badge&logo=LinkedIn&logoColor=white&message=LinkedIn&labelColor=blue&label=%20&color=gray"
