@@ -5,7 +5,7 @@
         Science and an Associate in Science with Applied Computing from Rochester Institute of Technology. I was born
         deaf and use hearing aids to hear sounds. Speak English and Russian fluently. Also, I know sign language. I am
         passionate about working on solving problems, engineering projects, learning new software, and learning new
-        topics. Currently, I am a full-time employee at Citi. My hobbies are fitness, judo, and outdoor activities. My
+        topics. Currently, I am a full-time employee at Citi. I am athletic and sportsman, like outdoor activities. My
         software development skills that I have learned and worked with are provided below, and you can also find my
         contacts.</p>
 
