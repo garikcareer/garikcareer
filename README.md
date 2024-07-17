@@ -1,12 +1,11 @@
 <div align="center" >
     <!--   <a href="#"><img src="https://media.giphy.com/media/SWoSkN6DxTszqIKEqv/giphy.gif" width="350" height="200"/></a> -->
     <h1>About me </h1>
-    <p>My name is Garik. I am a software engineer and graduated with two diplomas: a Bachelor of Science in Computer
+    <p>My name is Garik. I am full-stack software developer and graduated with two diplomas: a Bachelor of Science in Computer
         Science and an Associate in Science with Applied Computing from Rochester Institute of Technology. I was born
         deaf and use hearing aids to hear sounds. Speak English and Russian fluently. Also, I know sign language. I am
         passionate about working on solving problems, engineering projects, learning new software, and learning new
-        topics. Currently, I am a full-time employee at Citi. I am athletic and sportsman, like outdoor activities. My
-        software development skills that I have learned and worked with are provided below, and you can also find my
+        topics. My software development skills that I have learned and worked with are provided below, and you can also find my
         contacts.</p>
 
 </div>
