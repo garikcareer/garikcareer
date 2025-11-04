@@ -15,12 +15,12 @@
                      title="Java" alt="Java" width="70" height="70"/></a>&nbsp;
     <a href="#"><img src="https://github.com/devicons/devicon/blob/master/icons/python/python-original-wordmark.svg"
                      title="Python" alt="Python" width="70" height="70"/></a>&nbsp;
+    <a href="#"><img src="https://github.com/devicons/devicon/blob/master/icons/c/c-original.svg" title="C" alt="C"
+                     width="70" height="70"/></a>&nbsp;
     <a href="#"><img src="https://github.com/devicons/devicon/blob/master/icons/csharp/csharp-original.svg" title="C#"
                      alt="C#" width="70" height="70"/></a>&nbsp;
     <a href="#"><img src="https://github.com/devicons/devicon/blob/master/icons/php/php-original.svg" title="PHP"
                      alt="PHP" width="70" height="70"/></a>&nbsp;
-    <a href="#"><img src="https://github.com/devicons/devicon/blob/master/icons/c/c-original.svg" title="C" alt="C"
-                     width="70" height="70"/></a>&nbsp;
     <h4>Frontend Technologies</h4>
     <a href="#"><img src="https://github.com/devicons/devicon/blob/master/icons/html5/html5-original.svg" title="HTML5"
                      alt="HTML5" width="70" height="70"/></a>&nbsp;
