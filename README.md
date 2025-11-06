@@ -57,17 +57,9 @@
     <a href="#"><img src="https://github.com/devicons/devicon/blob/master/icons/redhat/redhat-original-wordmark.svg"
                      title="Red Hat" alt="Red Hat" width="70" height="70"/></a>&nbsp;
     <a href="#"><img src="https://github.com/devicons/devicon/blob/master/icons/amazonwebservices/amazonwebservices-original-wordmark.svg" 
-                    title="AWS" alt="AWS" width="70" height="70"/></a>&nbsp;
+                     title="AWS" alt="AWS" width="70" height="70"/></a>&nbsp;
     <a href="#"><img src="https://github.com/devicons/devicon/blob/master/icons/nginx/nginx-original.svg" 
-                    title="Nginx" alt="Nginx" width="70" height="70"/></a>&nbsp;
-    <h4>IDEs</h4>
-    <a href="#"><img src="https://github.com/devicons/devicon/blob/master/icons/intellij/intellij-original.svg"
-                     title="IntelliJ" alt="IntelliJ" width="70" height="70"/></a>&nbsp;
-    <a href="#"><img
-            src="https://github.com/devicons/devicon/blob/master/icons/visualstudio/visualstudio-original-wordmark.svg"
-            title="Visual Studio" alt="Visual Studio" width="70" height="70"/></a>&nbsp;
-    <a href="#"><img src="https://github.com/devicons/devicon/blob/master/icons/eclipse/eclipse-original-wordmark.svg"
-                     title="Eclipse" alt="Visual Studio" width="70" height="70"/></a>&nbsp;
+                     title="Nginx" alt="Nginx" width="70" height="70"/></a>&nbsp;
     <h4>Developer Tools</h4>
     <a href="#"><img src="https://github.com/devicons/devicon/blob/master/icons/git/git-original-wordmark.svg"
                      title="Git" alt="Git" width="70" height="70"/></a>&nbsp;
@@ -89,6 +81,12 @@
                      title="Jenkins" alt="Jenkins" width="70" height="70"/></a>&nbsp;
     <a href="#"><img src="https://github.com/devicons/devicon/blob/master/icons/slack/slack-original-wordmark.svg"
                      title="Slack" alt="Slack" width="70" height="70"/></a>&nbsp;
+    <a href="#"><img src="https://github.com/devicons/devicon/blob/master/icons/intellij/intellij-original.svg"
+                     title="IntelliJ" alt="IntelliJ" width="70" height="70"/></a>&nbsp;
+    <a href="#"><img src="https://github.com/devicons/devicon/blob/master/icons/visualstudio/visualstudio-original-wordmark.svg"
+                     title="Visual Studio" alt="Visual Studio" width="70" height="70"/></a>&nbsp;
+    <a href="#"><img src="https://github.com/devicons/devicon/blob/master/icons/eclipse/eclipse-original-wordmark.svg"
+                     title="Eclipse" alt="Visual Studio" width="70" height="70"/></a>&nbsp;
     <h4>Operating Systems</h4>
     <a href="#"><img src="https://github.com/devicons/devicon/blob/master/icons/windows11/windows11-original.svg"
                      title="Windows" alt="Windows" width="70" height="70"/></a>&nbsp;
