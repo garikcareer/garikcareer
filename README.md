@@ -1,12 +1,7 @@
 <div align="center" >
     <!--   <a href="#"><img src="https://media.giphy.com/media/SWoSkN6DxTszqIKEqv/giphy.gif" width="350" height="200"/></a> -->
     <h1>About me </h1>
-    <p>My name is Garik. I am full-stack software developer and graduated with two diplomas: a Bachelor of Science in Computer
-        Science and an Associate in Science with Applied Computing from Rochester Institute of Technology. I am
-        passionate about working on solving problems, engineering projects, learning new software, and learning new
-        topics. My software development skills that I have learned and worked with are provided below, and you can also find my
-        contacts.</p>
-
+    <p>I am a Full-Stack Software Developer with a B.S. in Computer Science from RIT. I specialize in building scalable applications and engineering robust solutions. I am constantly expanding my tech stack and looking for new challenges in software engineering.
 </div>
 <div align="center">
     <h1>Software Experience</h1>
