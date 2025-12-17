@@ -76,6 +76,7 @@
                      title="Jenkins" alt="Jenkins" width="70" height="70"/></a>&nbsp;
     <a href="#"><img src="https://github.com/devicons/devicon/blob/master/icons/slack/slack-original-wordmark.svg"
                      title="Slack" alt="Slack" width="70" height="70"/></a>&nbsp;
+    <br>
     <a href="#"><img src="https://github.com/devicons/devicon/blob/master/icons/intellij/intellij-original.svg"
                      title="IntelliJ" alt="IntelliJ" width="70" height="70"/></a>&nbsp;
     <a href="#"><img src="https://github.com/devicons/devicon/blob/master/icons/webstorm/webstorm-original.svg"
