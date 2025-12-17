@@ -78,6 +78,10 @@
                      title="Slack" alt="Slack" width="70" height="70"/></a>&nbsp;
     <a href="#"><img src="https://github.com/devicons/devicon/blob/master/icons/intellij/intellij-original.svg"
                      title="IntelliJ" alt="IntelliJ" width="70" height="70"/></a>&nbsp;
+    <a href="#"><img src="https://github.com/devicons/devicon/blob/master/icons/webstorm/webstorm-original.svg"
+                     title="WebStorm" alt="WebStorm" width="70" height="70"/></a>&nbsp;
+    <a href="#"><img src="https://github.com/devicons/devicon/blob/master/icons/pycharm/pycharm-original.svg"
+                     title="PyCharm" alt="PyCharm" width="70" height="70"/></a>&nbsp;
     <a href="#"><img src="https://github.com/devicons/devicon/blob/master/icons/visualstudio/visualstudio-original-wordmark.svg"
                      title="Visual Studio" alt="Visual Studio" width="70" height="70"/></a>&nbsp;
     <a href="#"><img src="https://github.com/devicons/devicon/blob/master/icons/eclipse/eclipse-original-wordmark.svg"
