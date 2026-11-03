@@ -26,6 +26,25 @@ jobs:
     steps:
       - uses: actions/checkout@v7
 
+      - name: Check STATS_TOKEN
+        env:
+          STATS_TOKEN: ${{ secrets.STATS_TOKEN }}
+        run: |
+          if [ -z "$STATS_TOKEN" ]; then
+            echo "::warning::STATS_TOKEN is not visible to this workflow, so the cards count public repositories only. Add it under this repository's Settings > Secrets and variables > Actions > Repository secrets."
+            exit 0
+          fi
+          if ! headers=$(curl -fsS -o /dev/null -D - -H "Authorization: Bearer $STATS_TOKEN" https://api.github.com/user); then
+            echo "::error::GitHub rejected STATS_TOKEN (expired or revoked?). Create a new classic token with the repo and read:user scopes."
+            exit 1
+          fi
+          scopes=$(printf '%s' "$headers" | tr -d '\r' | sed -n 's/^x-oauth-scopes: *//Ip')
+          echo "STATS_TOKEN scopes: ${scopes:-none reported}"
+          case ", $scopes," in
+            *", repo,"*) ;;
+            *) echo "::warning::STATS_TOKEN has no repo scope (fine-grained tokens report none), so private repositories will not count. Use a classic token with repo and read:user." ;;
+          esac
+
       - name: Stats card (dark)
         uses: stats-organization/github-readme-stats-action@v2
         with:
@@ -60,11 +79,30 @@ jobs:
 
       - name: Commit the cards
         run: |
+          # The cards are generated files, so they go on top of whatever main is now: a push made
+          # while this job ran, or a re-run of an older run, can leave the checkout behind main.
+          mkdir -p "$RUNNER_TEMP/cards"
+          cp profile/*.svg "$RUNNER_TEMP/cards/"
           git config user.name "github-actions[bot]"
           git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
-          git add profile/*.svg
-          git commit -m "chore: refresh profile stats cards" || exit 0
-          git push
+          for attempt in 1 2 3; do
+            git fetch --depth=1 origin "$GITHUB_REF_NAME"
+            git checkout -f -B "$GITHUB_REF_NAME" FETCH_HEAD
+            mkdir -p profile
+            cp "$RUNNER_TEMP"/cards/*.svg profile/
+            git add profile/*.svg
+            if git diff --cached --quiet; then
+              echo "The cards are unchanged."
+              exit 0
+            fi
+            git commit -m "chore: refresh profile stats cards"
+            if git push origin "HEAD:$GITHUB_REF_NAME"; then
+              exit 0
+            fi
+            sleep $((attempt * 5))
+          done
+          echo "::error::Could not push the cards after 3 attempts."
+          exit 1
 
   snake:
     name: Contribution snake
