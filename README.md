@@ -1,9 +1,3 @@
-<!--
-  garikcareer/garikcareer — profile README
-  Generated assets: profile/*.svg (stats cards) and the `output` branch (snake) come from
-  .github/workflows/profile-assets.yml. Run that workflow once by hand after adding it.
--->
-
 <div align="center">
 
 <a href="https://garikcareer.com">
@@ -12,10 +6,6 @@
     <img src="https://readme-typing-svg.demolab.com/?font=Fira+Code&weight=500&size=26&duration=3000&pause=1200&color=1A7F37&center=true&vCenter=true&width=720&height=64&lines=Garik+Arutyunyan;Full-Stack+Software+Engineer;Java+%C2%B7+Spring+Boot+%C2%B7+PostgreSQL;React+%C2%B7+TypeScript+%C2%B7+Docker;Interface+%E2%86%92+API+%E2%86%92+database+%E2%86%92+infrastructure" alt="Garik Arutyunyan — Full-Stack Software Engineer: Java, Spring Boot, PostgreSQL, React, TypeScript, Docker" />
   </picture>
 </a>
-
-<!-- Banner alternative: your site's social image, same matrix look. Swap it in for the typing header.
-<a href="https://garikcareer.com"><img src="https://garikcareer.com/og-image.png" alt="Garik Arutyunyan — Full-Stack Software Engineer" width="100%" /></a>
--->
 
 <p>
   <a href="https://garikcareer.com"><img src="https://img.shields.io/badge/Portfolio-garikcareer.com-00FF41?style=for-the-badge&labelColor=0D1117" alt="Portfolio: garikcareer.com" /></a>
@@ -41,8 +31,6 @@ education: B.S. Computer Science, RIT · Dean's List
 
 ## Enterprise impact · Citi
 
-<!-- Every number below is on the resume. Add a metric only if you can say how it was measured. -->
-
 | **27** | **9** | **28** | **7 / 7** |
 |:---:|:---:|:---:|:---:|
 | end-to-end tests on token transfers, incl. negative cases | subprojects revived on Spring Boot 3 | Drools rules onboarded from 6 teams | Black Duck dependency risks resolved |
@@ -63,9 +51,7 @@ A live, US-only online perfume store that I design, build and operate end to end
 | **Quality** | 2,400+ backend tests (JUnit 5, MockMvc, Testcontainers PostgreSQL, ArchUnit) and 1,300+ frontend tests (Vitest, React Testing Library) |
 | **Operations** | Docker Compose on a Raspberry Pi 5 behind a Cloudflare Tunnel: read-only app container with every Linux capability dropped, memory caps, log rotation, health checks, nightly backups |
 
-<!-- Uncomment once the repository is public (it 404s for visitors while private):
-<sub>Source → [garikcareer/cesella.com](https://github.com/garikcareer/cesella.com)</sub>
--->
+ <sub>Source is private (it's a live store) · [Read the case study →](https://github.com/garikcareer/cesella-case-study) · happy to walk through the code on a call</sub>
 
 ## Tech stack
 
