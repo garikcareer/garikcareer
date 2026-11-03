@@ -22,7 +22,7 @@ jobs:
       DARK: bg_color=0d1117&title_color=00ff41&icon_color=00ff41&text_color=c9d1d9&border_color=30363d
       LIGHT: bg_color=ffffff&title_color=2da44e&icon_color=2da44e&text_color=1f2328&border_color=d1d9e0
       STATS: show_icons=true&hide_rank=true&include_all_commits=true&hide=stars,issues,contribs&show=prs_merged&card_width=420
-      LANGS: layout=compact&langs_count=3&card_width=340
+      LANGS: layout=compact&langs_count=6&card_width=340
     steps:
       - uses: actions/checkout@v7
 
