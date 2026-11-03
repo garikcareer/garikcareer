@@ -13,76 +13,35 @@ concurrency:
   cancel-in-progress: false
 
 jobs:
-  stats:
-    name: Stats cards
+  streak:
+    name: Streak card
     runs-on: ubuntu-latest
     timeout-minutes: 10
     env:
-      # garikcareer.com palette: dark theme (#0d1117 / #00ff41) and light theme (#ffffff / #2da44e)
-      DARK: bg_color=0d1117&title_color=00ff41&icon_color=00ff41&text_color=c9d1d9&border_color=30363d
-      LIGHT: bg_color=ffffff&title_color=2da44e&icon_color=2da44e&text_color=1f2328&border_color=d1d9e0
-      STATS: show_icons=true&hide_rank=true&include_all_commits=true&hide=stars,issues,contribs&show=prs_merged&card_width=420
-      LANGS: layout=compact&langs_count=6&card_width=340
+      COMMON: user=${{ github.repository_owner }}&mode=weekly&timezone=America/Los_Angeles&disable_animations=true
+      DARK: background=0d1117&border=30363d&stroke=30363d&ring=00ff41&fire=00ff41&currStreakNum=00ff41&currStreakLabel=00ff41&sideNums=c9d1d9&sideLabels=c9d1d9&dates=8b949e
+      LIGHT: background=ffffff&border=d1d9e0&stroke=d1d9e0&ring=2da44e&fire=2da44e&currStreakNum=1f2328&currStreakLabel=1a7f37&sideNums=1f2328&sideLabels=1f2328&dates=57606a
     steps:
       - uses: actions/checkout@v7
 
-      - name: Check STATS_TOKEN
-        env:
-          STATS_TOKEN: ${{ secrets.STATS_TOKEN }}
-        run: |
-          if [ -z "$STATS_TOKEN" ]; then
-            echo "::warning::STATS_TOKEN is not visible to this workflow, so the cards count public repositories only. Add it under this repository's Settings > Secrets and variables > Actions > Repository secrets."
-            exit 0
-          fi
-          if ! headers=$(curl -fsS -o /dev/null -D - -H "Authorization: Bearer $STATS_TOKEN" https://api.github.com/user); then
-            echo "::error::GitHub rejected STATS_TOKEN (expired or revoked?). Create a new classic token with the repo and read:user scopes."
-            exit 1
-          fi
-          scopes=$(printf '%s' "$headers" | tr -d '\r' | sed -n 's/^x-oauth-scopes: *//Ip')
-          echo "STATS_TOKEN scopes: ${scopes:-none reported}"
-          case ", $scopes," in
-            *", repo,"*) ;;
-            *) echo "::warning::STATS_TOKEN has no repo scope (fine-grained tokens report none), so private repositories will not count. Use a classic token with repo and read:user." ;;
-          esac
-
-      - name: Stats card (dark)
-        uses: stats-organization/github-readme-stats-action@v2
+      - name: Streak card (dark)
+        uses: DenverCoder1/github-readme-streak-stats@v1
         with:
-          card: stats
-          options: username=${{ github.repository_owner }}&${{ env.STATS }}&${{ env.DARK }}
-          path: profile/stats-dark.svg
-          token: ${{ secrets.STATS_TOKEN || secrets.GITHUB_TOKEN }}
+          options: ${{ env.COMMON }}&${{ env.DARK }}
+          path: profile/streak-dark.svg
 
-      - name: Stats card (light)
-        uses: stats-organization/github-readme-stats-action@v2
+      - name: Streak card (light)
+        uses: DenverCoder1/github-readme-streak-stats@v1
         with:
-          card: stats
-          options: username=${{ github.repository_owner }}&${{ env.STATS }}&${{ env.LIGHT }}
-          path: profile/stats-light.svg
-          token: ${{ secrets.STATS_TOKEN || secrets.GITHUB_TOKEN }}
-
-      - name: Top languages card (dark)
-        uses: stats-organization/github-readme-stats-action@v2
-        with:
-          card: top-langs
-          options: username=${{ github.repository_owner }}&${{ env.LANGS }}&${{ env.DARK }}
-          path: profile/top-langs-dark.svg
-          token: ${{ secrets.STATS_TOKEN || secrets.GITHUB_TOKEN }}
-
-      - name: Top languages card (light)
-        uses: stats-organization/github-readme-stats-action@v2
-        with:
-          card: top-langs
-          options: username=${{ github.repository_owner }}&${{ env.LANGS }}&${{ env.LIGHT }}
-          path: profile/top-langs-light.svg
-          token: ${{ secrets.STATS_TOKEN || secrets.GITHUB_TOKEN }}
+          options: ${{ env.COMMON }}&${{ env.LIGHT }}
+          path: profile/streak-light.svg
 
       - name: Commit the cards
         run: |
           # The cards are generated files, so they go on top of whatever main is now: a push made
           # while this job ran, or a re-run of an older run, can leave the checkout behind main.
           mkdir -p "$RUNNER_TEMP/cards"
-          cp profile/*.svg "$RUNNER_TEMP/cards/"
+          cp profile/streak-*.svg "$RUNNER_TEMP/cards/"
           git config user.name "github-actions[bot]"
           git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
           for attempt in 1 2 3; do
@@ -90,12 +49,14 @@ jobs:
             git checkout -f -B "$GITHUB_REF_NAME" FETCH_HEAD
             mkdir -p profile
             cp "$RUNNER_TEMP"/cards/*.svg profile/
-            git add profile/*.svg
+            # The old stats cards needed a personal token; removed once, harmless afterwards
+            git rm -q --ignore-unmatch profile/stats-*.svg profile/top-langs-*.svg
+            git add profile/streak-*.svg
             if git diff --cached --quiet; then
               echo "The cards are unchanged."
               exit 0
             fi
-            git commit -m "chore: refresh profile stats cards"
+            git commit -m "chore: refresh profile streak card"
             if git push origin "HEAD:$GITHUB_REF_NAME"; then
               exit 0
             fi
