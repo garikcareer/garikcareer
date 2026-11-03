@@ -74,12 +74,8 @@ A live, US-only online perfume store that I design, build and operate end to end
 
 <p align="center">
   <picture>
-    <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/garikcareer/garikcareer/HEAD/profile/stats-dark.svg" />
-    <img src="https://raw.githubusercontent.com/garikcareer/garikcareer/HEAD/profile/stats-light.svg" height="150" alt="GitHub stats for garikcareer" />
-  </picture>
-  <picture>
-    <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/garikcareer/garikcareer/HEAD/profile/top-langs-dark.svg" />
-    <img src="https://raw.githubusercontent.com/garikcareer/garikcareer/HEAD/profile/top-langs-light.svg" height="150" alt="Most-used languages" />
+    <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/garikcareer/garikcareer/HEAD/profile/streak-dark.svg" />
+    <img src="https://raw.githubusercontent.com/garikcareer/garikcareer/HEAD/profile/streak-light.svg" alt="Total contributions and weekly contribution streak for garikcareer" />
   </picture>
 </p>
 
