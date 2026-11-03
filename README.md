@@ -1,99 +1,99 @@
+<!--
+  garikcareer/garikcareer — profile README
+  Generated assets: profile/*.svg (stats cards) and the `output` branch (snake) come from
+  .github/workflows/profile-assets.yml. Run that workflow once by hand after adding it.
+-->
+
 <div align="center">
-    <h1>Software Experience</h1>
-    <h4>Languages</h4>
-    <a href="#"><img src="https://github.com/devicons/devicon/blob/master/icons/java/java-original-wordmark.svg"
-                     title="Java" alt="Java" width="70" height="70"/></a>&nbsp;
-    <a href="#"><img src="https://github.com/devicons/devicon/blob/master/icons/python/python-original-wordmark.svg"
-                     title="Python" alt="Python" width="70" height="70"/></a>&nbsp;
-    <a href="#"><img src="https://github.com/devicons/devicon/blob/master/icons/javascript/javascript-original.svg" title="JavaScript" 
-                     alt="JavaScript" width="70" height="70"/></a>&nbsp;
-    <a href="#"><img src="https://github.com/devicons/devicon/blob/master/icons/html5/html5-original.svg" title="HTML5"
-                     alt="HTML5" width="70" height="70"/></a>&nbsp;
-    <a href="#"><img src="https://github.com/devicons/devicon/blob/master/icons/css3/css3-original.svg" title="CSS3"
-                     alt="CSS3" width="70" height="70"/></a>&nbsp;
-    <a href="#"><img src="https://github.com/devicons/devicon/blob/master/icons/c/c-original.svg" title="C" alt="C"
-                     width="70" height="70"/></a>&nbsp;
-    <a href="#"><img src="https://github.com/devicons/devicon/blob/master/icons/csharp/csharp-original.svg" title="C#"
-                     alt="C#" width="70" height="70"/></a>&nbsp;
-    <a href="#"><img src="https://github.com/devicons/devicon/blob/master/icons/php/php-original.svg" title="PHP"
-                     alt="PHP" width="70" height="70"/></a>&nbsp;
-    <h4>Frameworks & Libraries</h4>
-    <a href="#"><img src="https://github.com/devicons/devicon/blob/master/icons/spring/spring-original-wordmark.svg"
-                     title="Spring" alt="Spring" width="70" height="70"/></a>&nbsp;
-    <a href="#"><img src="https://github.com/devicons/devicon/blob/master/icons/junit/junit-original-wordmark.svg"
-                     title="Junit5" alt="Junit5" width="70" height="70"/></a>&nbsp;
-    <a href="#"><img src="https://github.com/devicons/devicon/blob/master/icons/angular/angular-original.svg"
-                     title="Angular" alt="Angular" width="70" height="70"/></a>&nbsp;
-    <a href="#"><img src="https://github.com/devicons/devicon/blob/master/icons/selenium/selenium-original.svg"
-                     title="Selenium" alt="Selenium" width="70" height="70"/></a>&nbsp;
-    <a href="#"><img src="https://github.com/devicons/devicon/blob/master/icons/react/react-original-wordmark.svg"
-                     title="React" alt="React" width="70" height="70"/></a>&nbsp;
-    <a href="#"><img src="https://github.com/devicons/devicon/blob/master/icons/pandas/pandas-original-wordmark.svg"
-                     title="pandas" alt="pandas" width="70" height="70"/></a>&nbsp;
-    <a href="#"><img src="https://github.com/devicons/devicon/blob/master/icons/numpy/numpy-original-wordmark.svg"
-                     title="NumPy" alt="NumPy" width="70" height="70"/></a>&nbsp;
-    <h4>Database & Database Management</h4>
-    <a href="#"><img src="https://github.com/devicons/devicon/blob/master/icons/mysql/mysql-original-wordmark.svg"
-                     title="MySQL" alt="MySQL" width="70" height="70"/></a>&nbsp;
-    <a href="#"><img src="https://github.com/devicons/devicon/blob/master/icons/mongodb/mongodb-original-wordmark.svg"
-                     title="MongoDB" alt="MongoDB" width="70" height="70"/></a>&nbsp;
-    <a href="#"><img src="https://github.com/devicons/devicon/blob/master/icons/oracle/oracle-original.svg"
-                     title="Oracle" alt="Oracle" width="70" height="70"/></a>&nbsp;
-    <a href="#"><img src="https://github.com/devicons/devicon/blob/master/icons/liquibase/liquibase-original-wordmark.svg"
-                     title="Liquibase" alt="Liquibase" width="70" height="70"/></a>&nbsp;
-    <h4>Cloud & DevOps</h4>
-    <a href="#"><img src="https://github.com/devicons/devicon/blob/master/icons/docker/docker-original-wordmark.svg"
-                     title="Docker" alt="Docker" width="70" height="70"/></a>&nbsp;
-    <a href="#"><img src="https://github.com/devicons/devicon/blob/master/icons/redhat/redhat-original-wordmark.svg"
-                     title="Red Hat" alt="Red Hat" width="70" height="70"/></a>&nbsp;
-    <a href="#"><img src="https://github.com/devicons/devicon/blob/master/icons/amazonwebservices/amazonwebservices-original-wordmark.svg" 
-                     title="AWS" alt="AWS" width="70" height="70"/></a>&nbsp;
-    <a href="#"><img src="https://github.com/devicons/devicon/blob/master/icons/nginx/nginx-original.svg" 
-                     title="Nginx" alt="Nginx" width="70" height="70"/></a>&nbsp;
-    <h4>Developer Tools</h4>
-    <a href="#"><img src="https://github.com/devicons/devicon/blob/master/icons/git/git-original-wordmark.svg"
-                     title="Git" alt="Git" width="70" height="70"/></a>&nbsp;
-    <a href="#"><img src="https://github.com/devicons/devicon/blob/master/icons/github/github-original-wordmark.svg"
-                     title="GitHub" alt="GitHub" width="70" height="70"/></a>&nbsp;
-    <a href="#"><img src="https://github.com/devicons/devicon/blob/master/icons/postman/postman-original-wordmark.svg"
-                     title="Postman" alt="Postman" width="70" height="70"/></a>&nbsp;
-    <a href="#"><img src="https://github.com/devicons/devicon/blob/master/icons/maven/maven-original-wordmark.svg"
-                     title="Maven" alt="Maven" width="70" height="70"/></a>&nbsp;
-    <a href="#"><img src="https://github.com/devicons/devicon/blob/master/icons/gradle/gradle-original-wordmark.svg"
-                     title="Gradle" alt="Gradle" width="70" height="70"/></a>&nbsp;
-    <a href="#"><img src="https://github.com/devicons/devicon/blob/master/icons/bitbucket/bitbucket-original-wordmark.svg" title="BitBukcet" 
-                     alt="BitBucket" width="70" height="70"/></a>&nbsp;
-    <a href="#"><img src="https://github.com/devicons/devicon/blob/master/icons/confluence/confluence-original-wordmark.svg" title="Confluence" 
-                    alt="Confluence" width="70" height="70"/></a>&nbsp;
-    <a href="#"><img src="https://github.com/devicons/devicon/blob/master/icons/jira/jira-original-wordmark.svg"
-                     title="Jira" alt="Jira" width="70" height="70"/></a>&nbsp;
-    <a href="#"><img src="https://github.com/devicons/devicon/blob/master/icons/jenkins/jenkins-original.svg"
-                     title="Jenkins" alt="Jenkins" width="70" height="70"/></a>&nbsp;
-    <a href="#"><img src="https://github.com/devicons/devicon/blob/master/icons/slack/slack-original-wordmark.svg"
-                     title="Slack" alt="Slack" width="70" height="70"/></a>&nbsp;
-    <br>
-    <a href="#"><img src="https://github.com/devicons/devicon/blob/master/icons/intellij/intellij-original.svg"
-                     title="IntelliJ" alt="IntelliJ" width="70" height="70"/></a>&nbsp;
-    <a href="#"><img src="https://github.com/devicons/devicon/blob/master/icons/webstorm/webstorm-original.svg"
-                     title="WebStorm" alt="WebStorm" width="70" height="70"/></a>&nbsp;
-    <a href="#"><img src="https://github.com/devicons/devicon/blob/master/icons/pycharm/pycharm-original.svg"
-                     title="PyCharm" alt="PyCharm" width="70" height="70"/></a>&nbsp;
-    <a href="#"><img src="https://github.com/devicons/devicon/blob/master/icons/visualstudio/visualstudio-original-wordmark.svg"
-                     title="Visual Studio" alt="Visual Studio" width="70" height="70"/></a>&nbsp;
-    <a href="#"><img src="https://github.com/devicons/devicon/blob/master/icons/eclipse/eclipse-original-wordmark.svg"
-                     title="Eclipse" alt="Visual Studio" width="70" height="70"/></a>&nbsp;
-    <h4>Operating Systems</h4>
-    <a href="#"><img src="https://github.com/devicons/devicon/blob/master/icons/windows11/windows11-original.svg"
-                     title="Windows" alt="Windows" width="70" height="70"/></a>&nbsp;
-    <a href="#"><img src="https://github.com/devicons/devicon/blob/master/icons/linux/linux-original.svg"
-                     title="Linux" alt="Linux" width="70" height="70"/></a>&nbsp;
-    <a href="#"><img src="https://github.com/devicons/devicon/blob/master/icons/apple/apple-original.svg"
-                     title="MacOS" alt="MacOS" width="70" height="70"/></a>&nbsp;
+
+<a href="https://garikcareer.com">
+  <img src="https://readme-typing-svg.demolab.com/?font=Fira+Code&weight=500&size=26&duration=3000&pause=1200&color=00FF41&center=true&vCenter=true&width=720&height=64&lines=Garik+Arutyunyan;Full-Stack+Software+Engineer;Java+%C2%B7+Spring+Boot+%C2%B7+PostgreSQL;React+%C2%B7+TypeScript+%C2%B7+Docker;Interface+%E2%86%92+API+%E2%86%92+database+%E2%86%92+infrastructure" alt="Garik Arutyunyan — Full-Stack Software Engineer: Java, Spring Boot, PostgreSQL, React, TypeScript, Docker" />
+</a>
+
+<!-- Banner alternative: your site's social image, same matrix look. Swap it in for the typing header.
+<a href="https://garikcareer.com"><img src="https://garikcareer.com/og-image.png" alt="Garik Arutyunyan — Full-Stack Software Engineer" width="100%" /></a>
+-->
+
+<p>
+  <a href="https://garikcareer.com"><img src="https://img.shields.io/badge/Portfolio-garikcareer.com-00FF41?style=for-the-badge&labelColor=0D1117" alt="Portfolio: garikcareer.com" /></a>
+  <a href="https://www.linkedin.com/in/garikcareer"><img src="https://img.shields.io/badge/LinkedIn-garikcareer-0A66C2?style=for-the-badge&labelColor=0D1117" alt="LinkedIn: garikcareer" /></a>
+  <a href="mailto:garikcareer@gmail.com"><img src="https://img.shields.io/badge/Email-garikcareer%40gmail.com-EA4335?style=for-the-badge&logo=gmail&logoColor=white&labelColor=0D1117" alt="Email: garikcareer@gmail.com" /></a>
+</p>
+
+I build full-stack systems end to end — **Java & Spring Boot** APIs, **React & TypeScript** front ends,<br />
+and the **Docker** infrastructure underneath them. 2.5 years at **Citi**; now building and running **[Cesella](https://cesella.com)**.
+
 </div>
+
+### `$ whoami`
+
+```yaml
+name:      Garik Arutyunyan
+role:      Full-Stack Software Engineer
+location:  Los Angeles, CA — open to relocation
+core:      [Java, Spring Boot, PostgreSQL, React, TypeScript, Docker]
+building:  cesella.com — live store on React 19, Spring Boot 4.1 and PostgreSQL 18, self-hosted
+citi:      Software Development Analyst — 2.5 years full-time after two internships (2021–2025)
+education: B.S. Computer Science, Rochester Institute of Technology — Dean's List
+```
+
+## Enterprise impact · Citi
+
+<!-- Every number below is on the resume. Add a metric only if you can say how it was measured. -->
+
+| **27** | **9** | **28** | **7 / 7** |
+|:---:|:---:|:---:|:---:|
+| end-to-end tests, incl. negative cases, verifying token transfers debit the sender and credit the recipient | subprojects of a deprecated Spring application building again after a Spring Boot 2 → 3 migration | Drools business rules reviewed and onboarded from 6 teams | open-source dependency risks flagged by Black Duck, all resolved |
+
+- **Blockchain token transfers** — built MongoDB-backed transfer functions for the platform and fixed transfers that were logged as sent but never arrived and had no transaction hash.
+- **Legacy modernization** — revived a deprecated Spring application: javax → Jakarta, Hibernate upgrade, legacy code rewritten or removed, Oracle databases restored.
+- **Pipeline security** — added SonarQube and Black Duck scanning to its Jenkins pipeline, then upgraded and retested every flagged library.
+- **Releases and test automation** — Liquibase migrations and rollbacks through Harness, OpenShift pod operations, and a stable TestNG + Selenium end-to-end suite covering smart contracts, token burns, transfers, OAuth 2.0 and 2FA.
+
+## Building now · [Cesella](https://cesella.com)
+
+A live, US-only online perfume store that I design, build and operate end to end.
+
+| Area | Details |
+|:--|:--|
+| **Stack** | React 19 + TypeScript SPA → Spring Boot 4.1 / Java 21 API → PostgreSQL 18 with Flyway |
+| **Commerce** | Square and PayPal checkout, live FedEx ground rates, labels and tracking, destination-based sales tax; every total re-checked on the server |
+| **Quality** | 2,400+ backend tests (JUnit 5, MockMvc, Testcontainers PostgreSQL, ArchUnit) and 1,300+ frontend tests (Vitest, React Testing Library) |
+| **Operations** | Docker Compose on a Raspberry Pi 5 behind a Cloudflare Tunnel: read-only app container with every Linux capability dropped, memory caps, log rotation, health checks, nightly backups |
+
+<!-- Remove this line while the repository is private: visitors would get a 404. -->
+<sub>Source → [garikcareer/cesella.com](https://github.com/garikcareer/cesella.com)</sub>
+
+## Tech stack
+
+| Domain | Tools |
+|:--|:--|
+| **Backend** | ![Java](https://img.shields.io/badge/Java-161B22?style=for-the-badge&logo=openjdk&logoColor=ED8B00) ![Spring Boot](https://img.shields.io/badge/Spring_Boot-161B22?style=for-the-badge&logo=springboot&logoColor=6DB33F) ![Hibernate](https://img.shields.io/badge/Hibernate-161B22?style=for-the-badge&logo=hibernate&logoColor=white) ![Jakarta EE](https://img.shields.io/badge/Jakarta_EE-161B22?style=for-the-badge) ![Drools](https://img.shields.io/badge/Drools-161B22?style=for-the-badge) ![Python](https://img.shields.io/badge/Python-161B22?style=for-the-badge&logo=python&logoColor=3776AB) |
+| **Frontend** | ![TypeScript](https://img.shields.io/badge/TypeScript-161B22?style=for-the-badge&logo=typescript&logoColor=3178C6) ![React](https://img.shields.io/badge/React-161B22?style=for-the-badge&logo=react&logoColor=61DAFB) ![JavaScript](https://img.shields.io/badge/JavaScript-161B22?style=for-the-badge&logo=javascript&logoColor=F7DF1E) ![Node.js](https://img.shields.io/badge/Node.js-161B22?style=for-the-badge&logo=nodedotjs&logoColor=5FA04E) |
+| **Data** | ![PostgreSQL](https://img.shields.io/badge/PostgreSQL-161B22?style=for-the-badge&logo=postgresql&logoColor=4169E1) ![Oracle](https://img.shields.io/badge/Oracle-161B22?style=for-the-badge) ![MongoDB](https://img.shields.io/badge/MongoDB-161B22?style=for-the-badge&logo=mongodb&logoColor=47A248) ![MySQL](https://img.shields.io/badge/MySQL-161B22?style=for-the-badge&logo=mysql&logoColor=4479A1) ![Flyway](https://img.shields.io/badge/Flyway-161B22?style=for-the-badge&logo=flyway&logoColor=white) ![Liquibase](https://img.shields.io/badge/Liquibase-161B22?style=for-the-badge&logo=liquibase&logoColor=2962FF) |
+| **Cloud & DevOps** | ![Docker](https://img.shields.io/badge/Docker-161B22?style=for-the-badge&logo=docker&logoColor=2496ED) ![OpenShift](https://img.shields.io/badge/OpenShift-161B22?style=for-the-badge&logo=redhatopenshift&logoColor=EE0000) ![Jenkins](https://img.shields.io/badge/Jenkins-161B22?style=for-the-badge&logo=jenkins&logoColor=D24939) ![Harness](https://img.shields.io/badge/Harness-161B22?style=for-the-badge) ![Nginx](https://img.shields.io/badge/Nginx-161B22?style=for-the-badge&logo=nginx&logoColor=009639) ![Cloudflare](https://img.shields.io/badge/Cloudflare-161B22?style=for-the-badge&logo=cloudflare&logoColor=F38020) ![Linux](https://img.shields.io/badge/Linux-161B22?style=for-the-badge&logo=linux&logoColor=FCC624) |
+| **Testing & quality** | ![JUnit 5](https://img.shields.io/badge/JUnit_5-161B22?style=for-the-badge&logo=junit5&logoColor=25A162) ![Selenium](https://img.shields.io/badge/Selenium-161B22?style=for-the-badge&logo=selenium&logoColor=43B02A) ![TestNG](https://img.shields.io/badge/TestNG-161B22?style=for-the-badge) ![Vitest](https://img.shields.io/badge/Vitest-161B22?style=for-the-badge&logo=vitest&logoColor=00FF74) ![Postman](https://img.shields.io/badge/Postman-161B22?style=for-the-badge&logo=postman&logoColor=FF6C37) ![SonarQube](https://img.shields.io/badge/SonarQube-161B22?style=for-the-badge&logo=sonarqubeserver&logoColor=126ED3) |
+
+## GitHub activity
+
+<p align="center">
+  <picture>
+    <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/garikcareer/garikcareer/HEAD/profile/stats-dark.svg" />
+    <img src="https://raw.githubusercontent.com/garikcareer/garikcareer/HEAD/profile/stats-light.svg" height="170" alt="GitHub stats for garikcareer" />
+  </picture>
+  <picture>
+    <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/garikcareer/garikcareer/HEAD/profile/top-langs-dark.svg" />
+    <img src="https://raw.githubusercontent.com/garikcareer/garikcareer/HEAD/profile/top-langs-light.svg" height="170" alt="Most-used languages" />
+  </picture>
+</p>
+
+<p align="center">
+  <picture>
+    <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/garikcareer/garikcareer/output/github-snake-dark.svg" />
+    <img src="https://raw.githubusercontent.com/garikcareer/garikcareer/output/github-snake.svg" alt="Contribution graph being eaten by a snake" />
+  </picture>
+</p>
+
 <div align="center">
-    <h1>📱Ways to contact me</h1>
-        <a href="mailto:garikcareer@gmail.com">
-            <img src="https://img.shields.io/static/v1?style=for-the-badge&logo=GMAIL&logoColor=RED&message=GMAIL&labelColor=white&label=%20&color=gray"
-                 alt="Gmail Badge"/>
-        </a>
+<sub>Open to full-time software engineering roles · Los Angeles or relocation · <a href="mailto:garikcareer@gmail.com">garikcareer@gmail.com</a></sub>
 </div>
